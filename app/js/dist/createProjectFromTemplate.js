@@ -68,7 +68,6 @@ function populateProjectContainer(templateFileName, data) {
                 case 0: return [4, getData(data)];
                 case 1:
                     dataToInsert = _a.sent();
-                    console.log(dataToInsert.data);
                     insertSite = document.querySelector('#projectContainer');
                     return [4, getTemplateAjax("app/js/templates/" + templateFileName)];
                 case 2:

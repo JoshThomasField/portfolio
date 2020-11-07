@@ -14,7 +14,6 @@ async function getData(APIpath: string) {
 
 async function populateProjectContainer(templateFileName: string, data: string) {
    let dataToInsert = await getData(data);
-    console.log(dataToInsert.data);
    let insertSite = document.querySelector('#projectContainer');
    let HBTemplate = await getTemplateAjax(`app/js/templates/${templateFileName}`);
    let template: Function = Handlebars.compile(HBTemplate);
