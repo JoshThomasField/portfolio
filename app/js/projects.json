@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+    "name": "Collector App",
+    "projectImage": "../assets/projects/",
+    "info": "A book collection App"
+    },
+    {
+      "name": "Collector App",
+      "projectImage": "../assets/projects/",
+      "info": "A book collection App"
+    },
+    {
+      "name": "Collector App",
+      "projectImage": "../assets/projects/",
+      "info": "A book collection App"
+    }
+  ]
+}

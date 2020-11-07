@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Josh Field</title>
+    <meta name="description" content="My Page Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8eb762019d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="app/assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="app/css/normalize.css">
+    <link rel="stylesheet" href="app/css/styles.css">
+    <script src="app/js/dist/handlebars-v4.0.11.js"></script>
+    <script defer id="handle_bars" type="text/x-handlebars-template"></script>
+    <script type="text/javascript" src="app/js/dist/indexPage.js" defer></script>
+    <script type="text/javascript" src="app/js/dist/createProjectFromTemplate.js" defer></script>
+</head>
+<body>
+<main>
+    <nav>
+        <div class="mobile-nav">
+            <a href="#"><img class="logo" src="app/assets/signature(1).png" alt="Logo"></a>
+            <i class="fas fa-bars"></i>
+            <div class="nav-links">
+                <a href="#about" aria-label="About Section">About</a>
+                <a href="#project" aria-label="Project Section">Projects</a>
+                <a href="#contact" aria-label="Contact Section">Contact</a>
+            </div>
+        </div>
+        <div class="hidden-nav-links">
+            <a class="linker" href="#about" aria-label="About Section">About</a>
+            <a class="linker" href="#project" aria-label="Project Section">Projects</a>
+            <a class="linker" href="#contact" aria-label="Contact Section">Contact</a>
+        </div>
+    </nav>
+    <section>
+        <div class="container display-container">
+            <h1 aria-label=" Hi, I’m Josh,web developer." class="blast-root">
+                <span class="tags top-tags"> &nbsp;&nbsp;&nbsp;&lt;body></span>
+                <span class="blast" aria-hidden="true">H</span>
+                <span class="blast" aria-hidden="true">i</span>
+                <span class="blast" aria-hidden="true">,</span><br>
+                <span class="blast" aria-hidden="true">I</span>
+                <span class="blast" aria-hidden="true">’</span>
+                <span class="blast" aria-hidden="true">m</span>
+                <span class="blast" aria-hidden="true">&nbsp;J</span>
+                <span class="blast" aria-hidden="true">o</span>
+                <span class="blast" aria-hidden="true">s</span>
+                <span class="blast" aria-hidden="true">h</span>
+                <span class="blast" aria-hidden="true">,</span><br>
+                <span class="blast" aria-hidden="true">w</span>
+                <span class="blast" aria-hidden="true">e</span>
+                <span class="blast" aria-hidden="true">b</span>
+                <span class="blast" aria-hidden="true">&nbsp;d</span>
+                <span class="blast" aria-hidden="true">e</span>
+                <span class="blast" aria-hidden="true">v</span>
+                <span class="blast" aria-hidden="true">e</span>
+                <span class="blast" aria-hidden="true">l</span>
+                <span class="blast" aria-hidden="true">o</span>
+                <span class="blast" aria-hidden="true">p</span>
+                <span class="blast" aria-hidden="true">e</span>
+                <span class="blast" aria-hidden="true">r</span>
+                <span class="blast" aria-hidden="true">.</span>
+                <span class="tags bottom-tags"> &nbsp;&nbsp;&nbsp;&lt;/body></span>
+            </h1>
+        </div>
+    </section>
+    <div class="container-t">
+        <svg viewBox="0 0 100 5">
+            <polygon points="0,0 100,0 100,5" style="fill: #1d2d44ff;" />
+        </svg>
+    </div>
+    <section>
+        <div class="page-jump" id="about"></div>
+        <div class="container about-me">
+            <img src="app/assets/me.jpg" alt="project image"/>
+            <div class="about-me-section">
+                <h2>About me!</h2>
+                <p>Some place holder text for later</p>
+            </div>
+        </div>
+    </section>
+    <div class="container-t">
+        <svg class="divider" viewBox="0 0 100 5">
+            <polygon points="0,0 0,5 100,5" style="fill: #1d2d44ff;" />
+        </svg>
+    </div>
+    <section class="project-page">
+        <div class="page-jump" id="project"></div>
+        <h2>My Projects!</h2>
+        <div id="projectContainer"class="container my-projects">
+
+        </div>
+    </section>
+    <div class="container-t">
+        <svg viewBox="0 0 100 5">
+            <polygon points="0,0 100,0 100,5" style="fill: #1d2d44ff;" />
+        </svg>
+    </div>
+    <section>
+        <div class="page-jump" id="contact"></div>
+        <div class="temporary-contact-me">
+            <h3>Contact Me</h3>
+            <p>You can reach me at josh.thomas.field@gmail.com</p>
+        </div>
+        <!--            <div class="contact-form">-->
+        <!--                <h3 class="contact-form-heading">Contact Form</h3>-->
+        <!--                <form action="">-->
+        <!--                    <div class="input-group">-->
+        <!--                        <label for="fullname">Name</label>-->
+        <!--                        <input type="text" id="fullname" name="fullname" placeholder="Name">-->
+        <!--                    </div>-->
+        <!--                    <div class="input-group">-->
+        <!--                        <label for="email">Email</label>-->
+        <!--                        <input type="text" id="email" name="email" placeholder="Email">-->
+        <!--                    </div>-->
+        <!--                    <div class="input-group">-->
+        <!--                        <label for="message">Message</label>-->
+        <!--                        <textarea type="textarea" id="message" name="message" placeholder="Message" rows="4" cols="50"></textarea>-->
+        <!--                    </div>-->
+        <!--                </form>-->
+        <!--            </div>-->
+    </section>
+</main>
+<div class="container-t">
+    <svg class="divider" viewBox="0 0 100 5">
+        <polygon points="0,0 0,5 100,5" style="fill: rgb(13, 19, 33);" />
+    </svg>
+</div>
+<footer class="social-footer">
+    <div class="social-footer-left">
+        <a href="#"><img class="logo" src="app/assets/signature(1).png" alt="logo"></a>
+    </div>
+    <div class="social-footer-icons">
+        <ul class="menu simple">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/josh-field-0082141a2/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/JoshThomasField" target="_blank" aria-label="Github">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/JoshThomasField" target="_blank" aria-label="Github">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
