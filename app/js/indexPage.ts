@@ -1,10 +1,9 @@
-declare var Handlebars: any
-
-const burger = document.querySelector('.fa-bars');
+const burger = document.querySelector('.menuButton');
 const links: HTMLElement = document.querySelector('.hidden-nav-links');
 let linkers = document.querySelectorAll('.linker');
 
-burger.addEventListener('click', () => {
+burger.addEventListener('click', (e) => {
+    e.stopPropagation();
     if (links.style.display == 'none') {
         links.style.display = 'flex';
     } else {
@@ -16,3 +15,4 @@ linkers.forEach((link) => {
         links.style.display = 'none';
     })
 })
+

@@ -10,29 +10,30 @@
     <link rel="stylesheet" href="app/css/normalize.css">
     <link rel="stylesheet" href="app/css/styles.css">
     <script src="app/js/dist/handlebars-v4.0.11.js"></script>
+    <script type="text/javascript" src="app/js/dist/getData.js" defer></script>
+    <script type="text/javascript" src="app/js/dist/getTemplateAjax.js" defer></script>
     <script defer id="handle_bars" type="text/x-handlebars-template"></script>
     <script type="text/javascript" src="app/js/dist/indexPage.js" defer></script>
-    <script type="text/javascript" src="app/js/dist/createProjectFromTemplate.js" defer></script>
+    <script type="text/javascript" src="app/js/dist/projectPage.js" defer></script>
 </head>
 <body>
 <main>
     <nav>
         <div class="mobile-nav">
             <a href="/portfolio2.2/"><img class="logo" src="app/assets/signature(1).png" alt="Logo"></a>
-            <i class="fas fa-bars"></i>
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#project">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href="index.html" aria-label="Home">Home</a>
             </div>
         </div>
-        <div class="hidden-nav-links">
-            <a class="linker" href="#about">About</a>
-            <a class="linker" href="#project">Projects</a>
-            <a class="linker" href="#contact">Contact</a>
+        <div class="container-t">
+            <svg viewBox="0 0 100 5">
+                <polygon points="0,0 100,0 100,5" style="fill: rgb(13, 19, 33);" />
+            </svg>
         </div>
     </nav>
+    <section id="projectInfo">
 
+    </section>
 </main>
 <div class="container-t">
     <svg viewBox="0 0 100 5">
@@ -58,11 +59,6 @@
             <li>
                 <a href="https://github.com/JoshThomasField" target="_blank">
                     <i class="fa fa-github"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                    <i class="fa fa-twitter last-fa" aria-hidden="true"></i>
                 </a>
             </li>
         </ul>

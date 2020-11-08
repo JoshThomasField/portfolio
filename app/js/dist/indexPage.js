@@ -1,7 +1,8 @@
-var burger = document.querySelector('.fa-bars');
+var burger = document.querySelector('.menuButton');
 var links = document.querySelector('.hidden-nav-links');
 var linkers = document.querySelectorAll('.linker');
-burger.addEventListener('click', function () {
+burger.addEventListener('click', function (e) {
+    e.stopPropagation();
     if (links.style.display == 'none') {
         links.style.display = 'flex';
     }

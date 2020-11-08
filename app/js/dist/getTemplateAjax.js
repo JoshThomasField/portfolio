@@ -34,30 +34,18 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-function populateProjectContainer(templateFileName, data) {
+function getTemplateAjax(path) {
     return __awaiter(this, void 0, void 0, function () {
-        var dataToInsert, insertSite, HBTemplate, template;
+        var response;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4, getData(data)];
+                case 0: return [4, fetch(path, { method: 'get' })];
                 case 1:
-                    dataToInsert = _a.sent();
-                    insertSite = document.querySelector('#projectContainer');
-                    return [4, getTemplateAjax("app/js/templates/" + templateFileName)];
-                case 2:
-                    HBTemplate = _a.sent();
-                    template = Handlebars.compile(HBTemplate);
-                    if (dataToInsert.data.length < 1) {
-                        insertSite.innerHTML = 'No results!';
-                    }
-                    else {
-                        insertSite.innerHTML = template(dataToInsert);
-                    }
-                    return [2];
+                    response = _a.sent();
+                    return [2, response.text()];
             }
         });
     });
 }
-populateProjectContainer('projectTemplate.hbs', 'app/js/projects.json');
 
-//# sourceMappingURL=createProjectFromTemplate.js.map
+//# sourceMappingURL=getTemplateAjax.js.map

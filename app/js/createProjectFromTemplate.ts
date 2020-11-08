@@ -1,17 +1,3 @@
-async function getTemplateAjax(path: string) {
-    let response = await fetch(
-        path,
-        {method: 'get'}
-    )
-
-    return response.text()
-}
-
-async function getData(APIpath: string) {
-    let data = await fetch(APIpath);
-    return data.json();
-}
-
 async function populateProjectContainer(templateFileName: string, data: string) {
    let dataToInsert = await getData(data);
    let insertSite = document.querySelector('#projectContainer');

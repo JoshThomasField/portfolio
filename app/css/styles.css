@@ -29,6 +29,14 @@ html {
   html h1 {
     font-size: 2.4rem; }
 
+.menuButton {
+  background: transparent;
+  width: 60px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .hidden-nav-links {
   display: none;
   flex-direction: column;
@@ -79,7 +87,7 @@ nav {
 
 .image-container {
   width: 100%;
-  height: 30vh;
+  height: auto;
   overflow: hidden;
   background: url("") no-repeat;
   background-size: cover;
@@ -118,8 +126,7 @@ nav {
 
 .fas.fa-bars {
   font-size: 2rem;
-  color: #FFFFFF;
-  margin-right: 10px; }
+  color: #FFFFFF; }
 
 /* top display */
 .display-container {
@@ -142,6 +149,10 @@ nav {
   align-items: center;
   position: relative;
   color: #FFFFFF; }
+
+#projectInfo {
+  margin: 150px auto;
+  width: 80%; }
 
 .tags {
   font-family: 'La Belle Aurore',cursive;
@@ -299,17 +310,16 @@ nav {
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
-
-.project h3 {
-  font-size: 2.5rem;
-  margin: 0;
-  padding: 5px; }
-
-.project p {
-  font-size: 1.5rem;
-  max-width: 300px;
-  padding: 5px; }
+  align-items: center;
+  color: black; }
+  .project-info .project h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 5px; }
+  .project-info .project p {
+    font-size: 1.5rem;
+    max-width: 300px;
+    padding: 5px; }
 
 /* Contact form */
 .temporary-contact-me {

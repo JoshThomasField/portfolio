@@ -1,9 +1,11 @@
 {{#each data}}
-<div class="container project">
-    <img class="image-container" src="app/assets/projects/favicon.png" alt="project image project: {{name}}">
-    <div class="project-info">
-        <h3 class="project-title">{{name}}</h3>
-        <p class="project-description">{{info}}</p>
+<a href="project.html#{{id}}">
+    <div class="container project">
+        <img class="image-container" src="app/assets/projects/favicon.png" alt="project image project: {{name}}">
+        <div class="project-info">
+            <h3 class="project-title">{{name}}</h3>
+            <p class="project-description">{{info}}</p>
+        </div>
     </div>
-</div>
+</a>
 {{/each}}
