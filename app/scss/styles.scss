@@ -35,18 +35,56 @@ html {
   }
 }
 
-.menuButton {
-  background: transparent;
-  width: 60px;
-  height: 54px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logo {
+  margin: 10px;
+  width: auto;
+  height: 30px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  -webkit-animation: slideIn 4s 1;
+  animation: slideIn 4s 1;
 }
 
-.fa-home {
-  margin-right: 20px;
-  font-size: 2.5rem;
+nav {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #0d1321;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    .menuButton {
+      background: transparent;
+      width: 60px;
+      height: 54px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-links {
+      display: none;
+    }
+
+    .nav-links a:hover {
+      color: #FFA500;
+      -webkit-transition: color 1s ease;
+      -o-transition: color 1s ease;
+      transition: color 1s ease;
+    }
+    .fa-home {
+      margin-right: 20px;
+      font-size: 2.5rem;
+    }
+  }
 }
 
 .hidden-nav-links {
@@ -84,14 +122,6 @@ a {
   height: 30px;
 }
 
-nav {
-  position: -webkit-sticky;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 20;
-}
-
 /* Base components */
 .container {
   display: -webkit-box;
@@ -117,40 +147,6 @@ nav {
 }
 
 /* Custom components */
-
-.mobile-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  background-color: #0d1321;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.logo {
-  margin: 10px;
-  width: auto;
-  height: 30px;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  -webkit-animation: slideIn 4s 1;
-  animation: slideIn 4s 1;
-}
-
-.nav-links {
-  display: none;
-}
-
-.nav-links a:hover {
-  color: #FFA500;
-  -webkit-transition: color 1s ease;
-  -o-transition: color 1s ease;
-  transition: color 1s ease;
-}
 
 .fas.fa-bars {
   font-size: 2rem;
@@ -181,28 +177,56 @@ nav {
   color: #FFFFFF;
 }
 
-#projectInfo {
-  margin: 150px auto;
-  width: 80%;
+.blast-root {
+  position: relative;
 }
-
 .tags {
   font-family: 'La Belle Aurore',cursive;
   color: #FFA500;
   font-size: 1.75rem;
 }
-
 .tags.top-tags {
   position: absolute;
   top: -100%;
   left: -30%;
 }
-
 .tags.bottom-tags {
   position: absolute;
   bottom: -100%;
   left: -30%;
 }
+.blast {
+  font-size: 2.25rem;
+}
+
+.blast:hover {
+  -webkit-animation: pulse 3s infinite;
+  animation: pulse 3s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+#projectInfo {
+  margin: 25vh auto 100px auto;
+  width: 80%;
+  text-align: center;
+  img {
+    max-width: 450px;
+    width: 80%;
+    height: auto;
+  }
+  a {
+    color: black;
+    i {
+      font-size: 4rem;
+    }
+  }
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+
 
 .display-container h1::before {
   content: '<h1>';
@@ -223,20 +247,6 @@ nav {
   margin-left: -15px;
 }
 
-.blast-root {
-  position: relative;
-}
-
-.blast {
-  font-size: 2.25rem;
-}
-
-.blast:hover {
-  -webkit-animation: pulse 3s infinite;
-  animation: pulse 3s infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
 
 @-webkit-keyframes pulse {
   0% { color: #FFFFFF; -webkit-transform: scale(1); transform: scale(1);}
@@ -264,18 +274,16 @@ nav {
   -ms-flex-align: center;
   align-items: center;
   margin: 8vh 0;
-}
-
-.about-me img {
-  width: 40%;
-  min-width: 250px;
-  height: auto;
-  border-radius: 5px;
-}
-
-.about-me-section {
-  width: 40%;
-  text-align: center;
+  img {
+    width: 40%;
+    min-width: 250px;
+    height: auto;
+    border-radius: 5px;
+  }
+  .about-me-section {
+    width: 40%;
+    text-align: center;
+  }
 }
 
 /* Project */
@@ -283,24 +291,22 @@ nav {
   width: 100%;
   background-color: #1d2d44;
   position: relative;
-}
-
-.project-page h2 {
-  color: #FFFFFF;
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-  padding-top: 30px;
-}
-
-.my-projects {
-  padding: 30px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  h2 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+  }
+  .my-projects {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
 }
 
 .project {
@@ -365,9 +371,6 @@ nav {
   text-align: center;
   font-size: 2rem;
 }
-.temporary-contact-me h3 {
-  font-size: 3rem;
-}
 
 .contact-form {
   width: 90%;
@@ -379,23 +382,6 @@ nav {
 .contact-form-heading {
   text-align: center;
   margin-bottom: 30px;
-}
-
-.input-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-  width: 100%;
-}
-
-.input-group label {
-  margin-bottom: 5px;
 }
 
 /* Footer */
