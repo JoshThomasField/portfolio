@@ -10,12 +10,12 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/portfolio/icons/icon-72x72.png",
+      "src": "/portfolio/icons/icon-49x49.png",
       "sizes": "49x49",
       "type": "image/png"
     },
     {
-      "src": "/portfolio/icons/icon-96x96.png",
+      "src": "/portfolio/icons/icon-66x66.png",
       "sizes": "66x66",
       "type": "image/png"
     },
