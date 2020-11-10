@@ -9,7 +9,7 @@ var URLS = [                            // Add URL you want to cache in this lis
 ]
 
 
-caches.delete('JoshPortfolioversion_01')
+caches.delete(APP_PREFIX + --VERSION)
 
 
 // Respond with cached resources
