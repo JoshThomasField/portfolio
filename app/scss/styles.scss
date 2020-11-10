@@ -77,7 +77,9 @@ a {
     cursor: pointer;
   }
 }
-
+.project-info {
+  font-size: 1.75rem;
+}
 .page-jump {
   height: 30px;
 }
@@ -106,9 +108,10 @@ nav {
 
 .image-container {
   width: 100%;
-  height: auto;
+  max-width: 300px;
+  height: 250px;
   overflow: hidden;
-  background: url("")no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -304,7 +307,7 @@ nav {
   background-color:	#FFFFFF;
   padding: 0;
   min-width: 240px;
-  max-width: 330px;
+  max-width: 300px;
   border: 2px solid #0d1321;
   border-radius: 5px;
   margin: 0 10px;
@@ -536,7 +539,6 @@ nav {
   }
 
   .project {
-    min-width: 500px;
     -webkit-box-flex: 2;
     -ms-flex-positive: 2;
     flex-grow: 2;
