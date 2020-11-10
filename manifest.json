@@ -10,43 +10,43 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/portfolio/icons/icon-49x49.png",
-      "sizes": "49x49",
+      "src": "/portfolio/icons/icon-72x72.png",
+      "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/portfolio/icons/icon-66x66.png",
-      "sizes": "66x66",
+      "src": "/portfolio/icons/icon-96x96.png",
+      "sizes": "96x96",
       "type": "image/png"
     },
     {
       "src": "/portfolio/icons/icon-128x128.png",
-      "sizes": "88x88",
+      "sizes": "128x128",
       "type": "image/png"
     },
     {
       "src": "/portfolio/icons/icon-144x144.png",
-      "sizes": "99x99",
+      "sizes": "144x144",
       "type": "image/png"
     },
     {
       "src": "/portfolio/icons/icon-152x152.png",
-      "sizes": "104x104",
+      "sizes": "152x152",
       "type": "image/png"
     },
     {
       "src": "/portfolio/icons/icon-192x192.png",
-      "sizes": "132x132",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
       "src": "/portfolio/icons/icon-384x384.png",
-      "sizes": "264x264",
+      "sizes": "384x384",
       "type": "image/png"
     },
     {
       "src": "/portfolio/icons/icon-512x512.png",
-      "sizes": "352x352",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
