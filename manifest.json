@@ -4,13 +4,13 @@
   "lang": "en",
   "start_url": "https://joshthomasfield.github.io/portfolio/",
   "background_color": "#00aae7",
-  "theme_color": "#00aae7",
+  "theme_color": "#FFFFFF",
   "dir": "ltr",
   "display": "standalone",
   "orientation": "any",
   "icons": [
     {
-      "src": "/portfolio/icons/manifest.jpg",
+      "src": "/portfolio/icons/icon.jpg",
       "sizes": "512x512",
       "type": "image/png"
     }
