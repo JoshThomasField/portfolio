@@ -14,5 +14,5 @@ linkers.forEach((link) => {
     link.addEventListener('click', () => {
         links.style.display = 'none';
     })
-}) 
+})
 
