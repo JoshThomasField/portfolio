@@ -10,7 +10,7 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/portfolio/icons/favicon.png",
+      "src": "/portfolio/icons/manifest.jpg",
       "sizes": "512x512",
       "type": "image/png"
     }
