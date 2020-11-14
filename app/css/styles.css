@@ -28,6 +28,8 @@ html {
       flex-shrink: 0; }
   html h1 {
     font-size: 2.4rem; }
+  html button:hover {
+    cursor: pointer; }
 
 .logo {
   margin: 10px;
@@ -338,6 +340,12 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center; }
+  .project-info .github-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .project-info .github-link label {
+      margin-right: 10px; }
 
 /* Contact form */
 .temporary-contact-me {

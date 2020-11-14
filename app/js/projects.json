@@ -2,6 +2,15 @@
   "data": [
     {
       "id": "1",
+      "name": "Collector App",
+      "projectImage": "app/assets/projects/collectorApp.png",
+      "info": "A Book Collector App",
+      "text": "This was my first Object Orientated project, the team focused on and emphasised the importance of applying the SOLID principles and the need for a robust discussion about Architecture. Overall we spent around twenty percent of our sprint time ensuring that as a team we were sure we had applied these principles and that we all understood the requirements of the project. The benefits of this initial discussion were felt immediately the remainder of the tasks within the project were completed smoothly and all members of the team had a thorough understanding of the work that had been completed.",
+      "githubURL": "https://github.com/JoshThomasField/collectorApp",
+      "projectURL": "https://2020-joshf.dev.io-academy.uk/collectorApp/"
+    },
+    {
+      "id": "2",
       "name": "Jarver's Crypt",
       "projectImage": "app/assets/projects/JarversCrypt.png",
       "info": "A JavaScript maze Game",
