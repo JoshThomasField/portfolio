@@ -264,8 +264,10 @@ a {
     height: auto;
     border-radius: 5px; }
   .about-me .about-me-section {
-    width: 40%;
     text-align: center; }
+
+.about-me-section {
+  width: 80%; }
 
 /* Project */
 .project-page {
@@ -416,6 +418,8 @@ a {
     font-size: 3rem; }
   .blast {
     font-size: 3rem; }
+  .about-me-section {
+    width: 40%; }
   .project-page h2 {
     padding-top: 30px;
     font-size: 4rem; }

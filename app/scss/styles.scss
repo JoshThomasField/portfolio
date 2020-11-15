@@ -286,9 +286,11 @@ a {
     border-radius: 5px;
   }
   .about-me-section {
-    width: 40%;
     text-align: center;
   }
+}
+.about-me-section {
+  width: 80%;
 }
 
 /* Project */
@@ -468,6 +470,10 @@ a {
 
   .blast {
     font-size: 3rem;
+  }
+
+  .about-me-section {
+    width: 40%;
   }
 
   .project-page h2 {
