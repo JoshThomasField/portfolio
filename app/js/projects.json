@@ -5,7 +5,7 @@
       "name": "Collector App",
       "projectImage": "app/assets/projects/collectorApp.png",
       "info": "A Book Collector App",
-      "text": "This was the second solo project assigned at the academy. I had had two weeks' training in HTML, CSS and basic PHP. Our brief was to create an application which could store and retrieve information in an database using MySQL. I chose books as I wanted to keep the task simple. As an extra task, I added delete functionality to the application. The task only took me 2 days to complete which allowed me to spend the remaining 3 days helping my team mates complete their work.",
+      "text": "This was the second solo project assigned at the academy. I had had two weeks' training in HTML, CSS and basic PHP. Our brief was to create an application which could store and retrieve information in an database using MySQL. I chose books as I wanted to keep the task simple. I used prepared statements to ensure my app was not vulnerable to SQL injection but as I was still quite naive I left it open to XSS attacks but this has also now been fixed.As an extra task, I also added delete functionality to the application. ",
       "githubURL": "https://github.com/JoshThomasField/collectorApp",
       "projectURL": "https://2020-joshf.dev.io-academy.uk/collectorApp/"
     },
