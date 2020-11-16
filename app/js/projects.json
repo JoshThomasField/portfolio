@@ -5,7 +5,7 @@
       "name": "Collector App",
       "projectImage": "app/assets/projects/collectorApp.png",
       "info": "A Book Collector App",
-      "text": "This was my first Object Orientated project, the team focused on and emphasised the importance of applying the SOLID principles and the need for a robust discussion about Architecture. Overall we spent around twenty percent of our sprint time ensuring that as a team we were sure we had applied these principles and that we all understood the requirements of the project. The benefits of this initial discussion were felt immediately the remainder of the tasks within the project were completed smoothly and all members of the team had a thorough understanding of the work that had been completed.",
+      "text": "This was the second solo project assigned at the academy. I had had two weeks' training in HTML, CSS and basic PHP. Our brief was to create an application which could store and retrieve information in an database using MySQL. I chose books as I wanted to keep the task simple. As an extra task, I added delete functionality to the application. The task only took me 2 days to complete which allowed me to spend the remaining 3 days helping my team mates complete their work.",
       "githubURL": "https://github.com/JoshThomasField/collectorApp",
       "projectURL": "https://2020-joshf.dev.io-academy.uk/collectorApp/"
     },
@@ -14,15 +14,6 @@
       "name": "Jarver's Crypt",
       "projectImage": "app/assets/projects/JarversCrypt.png",
       "info": "A JavaScript maze Game",
-      "text": "Having just completed a week of JavaScript theory my team was set the task of creating a maze game utilising the skills we had just developed. This was also the first time any of us had worked in a Scrum team and this proved just as challenging as the technical aspects of the project. By this point I was quite comfortable working with Git and browser API's making the technical aspects of the week relatively straight forward. However the soft skills required to work in a Scrum team did not come naturally to me. I quickly learnt that speedily doing tasks that I was comfortable with did not help the team if they did not understand the code I had written, I learnt that in our team helping a team mate write the code was more efficient than doing it as fast as I could.",
-      "githubURL": "https://github.com/Mayden-Academy/2020-sept-maze-game",
-      "projectURL": "https://dev.io-academy.uk/projects/2020-sept/2020-sept-maze-game/"
-    },
-    {
-      "id": "3",
-      "name": "Planet Destroyer",
-      "projectImage": "app/assets/projects/SolarSystem.png",
-      "info": "SVG Solar System Game",
       "text": "Having just completed a week of JavaScript theory my team was set the task of creating a maze game utilising the skills we had just developed. This was also the first time any of us had worked in a Scrum team and this proved just as challenging as the technical aspects of the project. By this point I was quite comfortable working with Git and browser API's making the technical aspects of the week relatively straight forward. However the soft skills required to work in a Scrum team did not come naturally to me. I quickly learnt that speedily doing tasks that I was comfortable with did not help the team if they did not understand the code I had written, I learnt that in our team helping a team mate write the code was more efficient than doing it as fast as I could.",
       "githubURL": "https://github.com/Mayden-Academy/2020-sept-maze-game",
       "projectURL": "https://dev.io-academy.uk/projects/2020-sept/2020-sept-maze-game/"
@@ -41,18 +32,27 @@
       "name": "Countries Of The World",
       "projectImage": "app/assets/projects/countriesOfWorld.png",
       "info": "A restcountries API website",
-      "text": "This App makes AJAX requests to the restcountries API, I wanted to make a simple app that can provide me with the key facts about a country and I feel I achieved this. You can filter by Region and search by either 'starts with' or 'includes' which is particular helpful when you can't remember which 'Stan' you're thinking of. Ideally I'd like to turn this into a PWA with some flag and country related games.",
-      "githubURL": "https://github.com/Mayden-Academy/2020-sept-ecommerce",
+      "text": "This App makes AJAX requests to the restcountries API, I wanted to make a simple app that can provide me with the key facts about a country and I feel I achieved this. You can filter by Region and search by either 'starts with' or 'includes' which is particular helpful when you can't remember which 'Stan' you're thinking of. Ideally I'd like to turn this into a PWA with some flag and country related games, some work to cache the AJAX requests would not hurt either as there's a lot of latency at present.",
+      "githubURL": "https://github.com/JoshThomasField/FunWithFlags",
       "projectURL": "https://2020-joshf.dev.io-academy.uk/countriesOfWorld/"
     },
     {
       "id": "6",
       "name": "Currency Exchange",
-      "projectImage": "app/assets/projects/RobotStores.png",
+      "projectImage": "https://cdn.pixabay.com/photo/2017/08/04/05/37/coming-soon-2579123_1280.jpg",
       "info": "A currency exchange PWA",
-      "text": "This was my first Object Orientated project, the team focused on and emphasised the importance of applying the SOLID principles and the need for a robust discussion about Architecture. Overall we spent around twenty percent of our sprint time ensuring that as a team we were sure we had applied these principles and that we all understood the requirements of the project. The benefits of this initial discussion were felt immediately the remainder of the tasks within the project were completed smoothly and all members of the team had a thorough understanding of the work that had been completed.",
-      "githubURL": "https://github.com/Mayden-Academy/2020-sept-ecommerce",
-      "projectURL": "https://dev.io-academy.uk/projects/2020-sept/2020-sept-ecommerce/index.php"
+      "text": "",
+      "githubURL": "",
+      "projectURL": ""
+    },
+    {
+      "id": "7",
+      "name": "Aptitude Test",
+      "projectImage": "https://cdn.pixabay.com/photo/2017/08/04/05/37/coming-soon-2579123_1280.jpg",
+      "info": "A test for potential students",
+      "text": "",
+      "githubURL": "",
+      "projectURL": ""
     }
   ]
 }

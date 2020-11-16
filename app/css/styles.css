@@ -328,7 +328,8 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: black; }
+  color: black;
+  text-align: center; }
   .project-info .project h3 {
     font-size: 2.5rem;
     margin: 0;
