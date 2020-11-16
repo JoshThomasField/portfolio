@@ -32,7 +32,7 @@
       "name": "Countries Of The World",
       "projectImage": "app/assets/projects/countriesOfWorld.png",
       "info": "A restcountries API website",
-      "text": "This App makes AJAX requests to the restcountries API, I wanted to make a simple app that can provide me with the key facts about a country and I feel I achieved this. You can filter by Region and search by either 'starts with' or 'includes' which is particular helpful when you can't remember which 'Stan' you're thinking of. Ideally I'd like to turn this into a PWA with some flag and country related games, some work to cache the AJAX requests would not hurt either as there's a lot of latency at present.",
+      "text": "This App makes AJAX requests to the restcountries API, I wanted to make a simple app that can provide me with the key facts about a country and I feel I achieved this. You can filter by Region and search by either 'starts with' or 'includes' which is particular helpful when you can't remember which 'Stan' you're thinking of. Handlebars.js is used to template and dynamically render each country. Ideally I'd like to turn this into a PWA with some flag and country related games, but handling the caching of the requests with a service worker would be the biggest improvement from making this a PWA.",
       "githubURL": "https://github.com/JoshThomasField/FunWithFlags",
       "projectURL": "https://2020-joshf.dev.io-academy.uk/countriesOfWorld/"
     },
