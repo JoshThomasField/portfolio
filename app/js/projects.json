@@ -42,8 +42,8 @@
       "projectImage": "app/assets/projects/comingSoon.png",
       "info": "A currency exchange PWA",
       "text": "",
-      "githubURL": "",
-      "projectURL": ""
+      "githubURL": "/portfolio/",
+      "projectURL": "/portfolio/"
     },
     {
       "id": "7",
@@ -51,8 +51,8 @@
       "projectImage": "app/assets/projects/comingSoon.png",
       "info": "A test for potential students",
       "text": "",
-      "githubURL": "",
-      "projectURL": ""
+      "githubURL": "/portfolio/",
+      "projectURL": "/portfolio/"
     }
   ]
 }
