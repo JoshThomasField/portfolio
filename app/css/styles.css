@@ -178,12 +178,6 @@ a {
 .blast {
   font-size: 2.25rem; }
 
-.blast:hover {
-  -webkit-animation: pulse 3s infinite;
-  animation: pulse 3s infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear; }
-
 #projectInfo {
   margin: 25vh auto 100px auto;
   width: 80%;
@@ -215,20 +209,6 @@ a {
   position: absolute;
   margin-top: 35px;
   margin-left: -15px; }
-
-@-webkit-keyframes pulseProject {
-  0% {
-    color: #FFFFFF;
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    color: #11f602;
-    -webkit-transform: scale(1.01);
-    transform: scale(1.01); }
-  100% {
-    color: #FFFFFF;
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
 
 @keyframes pulse {
   0% {

@@ -19,7 +19,7 @@
       "projectURL": "https://dev.io-academy.uk/projects/2020-sept/2020-sept-maze-game/"
     },
     {
-      "id": "4",
+      "id": "3",
       "name": "Robot Stores",
       "projectImage": "app/assets/projects/RobotStores.png",
       "info": "An Ecommerce Store",
@@ -28,7 +28,7 @@
       "projectURL": "https://dev.io-academy.uk/projects/2020-sept/2020-sept-ecommerce/index.php"
     },
     {
-      "id": "5",
+      "id": "4",
       "name": "Countries Of The World",
       "projectImage": "app/assets/projects/countriesOfWorld.png",
       "info": "A restcountries API website",
@@ -37,22 +37,22 @@
       "projectURL": "https://2020-joshf.dev.io-academy.uk/countriesOfWorld/"
     },
     {
-      "id": "6",
+      "id": "5",
       "name": "Currency Exchange",
       "projectImage": "app/assets/projects/comingSoon.png",
       "info": "A currency exchange PWA",
       "text": "",
       "githubURL": "/portfolio/",
-      "projectURL": "/portfolio/"
+      "projectURL": ""
     },
     {
-      "id": "7",
+      "id": "6",
       "name": "Aptitude Test",
-      "projectImage": "app/assets/projects/comingSoon.png",
+      "projectImage": "app/assets/projects/aptitudeTest.png",
       "info": "A test for potential students",
-      "text": "",
-      "githubURL": "/portfolio/",
-      "projectURL": "/portfolio/"
+      "text": "This project involved working on an existing Mayden Academy project, the focus of the week was on front-end JavaScript however we were actually working in TypeScript and compiling into JS with Gulp. Sass was used over CSS and was also compiled with Gulp. Most of the code relied on AJAX requests to an API and the occasional use of Handlebars.js to template the returned JSON.",
+      "githubURL": "https://github.com/Mayden-Academy/aptitude-test",
+      "projectURL": ""
     }
   ]
 }

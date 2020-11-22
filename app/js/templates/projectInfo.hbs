@@ -8,9 +8,11 @@
             <label>Github Repository: </label>
             <i class="fa fa-github"></i>
         </a>
-        <a href="{{projectURL}}" target="_blank" aria-label="Project">
-            <button>View Project</button>
-        </a>
+        {{#checkProjectLinkExists projectURL ""}}
+            <a href="{{projectURL}}" target="_blank" aria-label="Project">
+                <button>View Project</button>
+            </a>
+        {{/checkProjectLinkExists}}
     </div>
 </div>
 
