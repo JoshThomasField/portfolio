@@ -53,6 +53,15 @@
       "text": "This project involved working on an existing Mayden Academy project, the focus of the week was on front-end JavaScript however we were actually working in TypeScript and compiling into JS with Gulp. Sass was used over CSS and was also compiled with Gulp. Most of the code relied on AJAX requests to an API and the occasional use of Handlebars.js to template the returned JSON.",
       "githubURL": "https://github.com/Mayden-Academy/aptitude-test",
       "projectURL": ""
+    },
+    {
+      "id": "7",
+      "name": "Academy Portal",
+      "projectImage": "app/assets/projects/academyPortal.png",
+      "info": "A portal used to onboard applicants",
+      "text": "This project using the Slim Framework was my first exposure to the MVC architecture pattern. I learnt a number of valuable technical lessons over the course of the project, I immediately felt the benefits of working in an MVC framework. Tracing code through the application was initially challenging but became more obvious and transparent as the week progressed.",
+      "githubURL": "https://github.com/Mayden-Academy/AcademyPortal",
+      "projectURL": ""
     }
   ]
 }
