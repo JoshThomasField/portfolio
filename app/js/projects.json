@@ -37,15 +37,6 @@
       "projectURL": "https://2020-joshf.dev.io-academy.uk/countriesOfWorld/"
     },
     {
-      "id": "5",
-      "name": "Currency Exchange",
-      "projectImage": "app/assets/projects/comingSoon.png",
-      "info": "A currency exchange PWA",
-      "text": "",
-      "githubURL": "/portfolio/",
-      "projectURL": ""
-    },
-    {
       "id": "6",
       "name": "Aptitude Test",
       "projectImage": "app/assets/projects/aptitudeTest.png",
