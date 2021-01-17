@@ -53,6 +53,15 @@
       "text": "This project using the Slim Framework was my first exposure to the MVC architecture pattern. I learnt a number of valuable technical lessons over the course of the project, I immediately felt the benefits of working in an MVC framework. Tracing code through the application was initially challenging but became more obvious and transparent as the week progressed.",
       "githubURL": "https://github.com/Mayden-Academy/AcademyPortal",
       "projectURL": ""
+    },
+    {
+      "id": "8",
+      "name": "TilTime",
+      "projectImage": "app/assets/projects/TilTime.png",
+      "info": "A social Media app",
+      "text": "My final project at Mayden Academy was a social media app using a MERN stack as well as the Mongoose and Passport JS libraries. Our team worked fluidly and switched between pair programming and autonomous working seamlessly. Due to the nature of Passport JS and its use of sessions, we could not fully implement a REST API but we still implemented a restful one, the front end React proved challenging as we opted not to use a state manager. Other features included the use of navigator.share, a service worker and the react-share library.",
+      "githubURL": "https://github.com/Mayden-Academy/2020-sept-DreamTeamSocial-api",
+      "projectURL": ""
     }
   ]
 }
